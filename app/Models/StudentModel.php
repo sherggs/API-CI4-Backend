@@ -7,14 +7,14 @@ use CodeIgniter\Model;
 class StudentModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'students';
-    protected $primaryKey       = 'id';
-    protected $useAutoIncrement = true;
+    protected $table            = 'students'; //name of the table 
+    protected $primaryKey       = 'id'; //the primary key in the table 
+    protected $useAutoIncrement = true; 
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['name','course','about']; //allowed fields in the model
 
     // Dates
     protected $useTimestamps = false;
