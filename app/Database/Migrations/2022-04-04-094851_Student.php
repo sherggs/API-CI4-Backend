@@ -8,11 +8,7 @@ class Student extends Migration
 {
     public function up()
     {
-<<<<<<< HEAD
-
-=======
         //Table datas : Name, Course and about  
->>>>>>> master
         $this->forge->addField([
             'id' => [
                 'type' => 'INT',
@@ -32,13 +28,13 @@ class Student extends Migration
                 'constraint' => 256
             ]
         ]);
-<<<<<<< HEAD
+
         $this->forge->addKey('id', true);
         $this->forge->createTable('students');
-=======
+
         $this->forge->addKey('id', true); //id is identified as the primary key 
         $this->forge->createTable('students'); //name of the table created 
->>>>>>> master
+
     }
 
     public function down()
