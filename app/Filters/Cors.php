@@ -1,5 +1,9 @@
 <?php
 
+// Student Name: Ademola Jegede,
+// Student ID: 2122998,
+// course: Web Technologies
+
 namespace App\Filters;
 
 use CodeIgniter\Filters\FilterInterface;
@@ -33,7 +37,9 @@ class Cors implements FilterInterface
 			die();
 		}
     }
-
+// Student Name: Ademola Jegede,
+// Student ID: 2122998,
+// course: Web Technologies
     /**
      * Allows After filters to inspect and modify the response
      * object as needed. This method does not allow any way

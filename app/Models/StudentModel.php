@@ -1,5 +1,11 @@
 <?php
 
+
+// Student Name: Ademola Jegede,
+// Student ID: 2122998,
+// course: Web Technologies
+
+
 namespace App\Models;
 
 use CodeIgniter\Model;
@@ -40,3 +46,7 @@ class StudentModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 }
+
+// Student Name: Ademola Jegede,
+// Student ID: 2122998,
+// course: Web Technologies

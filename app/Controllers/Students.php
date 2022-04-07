@@ -1,5 +1,10 @@
 <?php
 
+// Student Name: Ademola Jegede,
+// Student ID: 2122998,
+// course: Web Technologies
+
+
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
@@ -34,7 +39,9 @@ class Students extends ResourceController
         return $this->respond($data[0]);
     }
 
-
+// Student Name: Ademola Jegede,
+// Student ID: 2122998,
+// course: Web Technologies
 
     /**
      * Create a new resource object, from "posted" parameters
@@ -70,7 +77,9 @@ class Students extends ResourceController
         return $this->respondCreated($response);
     }
 
-
+// Student Name: Ademola Jegede,
+// Student ID: 2122998,
+// course: Web Technologies
 
     /**
      * Add or update a model resource, from "posted" properties
